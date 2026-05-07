@@ -1,0 +1,104 @@
+#qa {
+    display: flex;
+    height: 25vh;
+}
+
+#controls {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#task {
+    font-style: italic;
+    background: #fff2;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#question {
+    width: 20vw;
+    padding: 5px;
+    overflow: auto;
+}
+
+#answers {
+    width: 20vw;
+    padding: 5px;
+    overflow: auto;
+}
+
+#remaining {
+    float: right;
+    background: #fff4;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* Кнопки вопросов */
+.unviewed { 
+    background: #bbb; 
+}
+
+.viewed { 
+    background: lightskyblue; 
+}
+
+.answered { 
+    background: aquamarine; 
+}
+.current { 
+    font-weight: bold; 
+    border: 3px solid; 
+}
+
+/* Результаты */
+.incorrect { 
+    background: #E555; 
+}
+
+.correct { 
+    background: #4A55; 
+}
+
+/* Стиль */
+body {
+    background: url("../images/bg.jpg") center/cover no-repeat fixed;
+}
+
+.content {
+    backdrop-filter: blur(50px);
+    padding: 12px;
+    margin: 10px;
+    border-radius: 9px;
+    background-color: #fff6;
+    border: 1px solid #0003;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.content fieldset {
+    border-radius: 9px;
+}
+
+.content table, tr, td, th {
+    border-collapse: collapse;
+    border: 1px solid #0002;
+}
+
+.content h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content select { max-width: 90%; }
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}

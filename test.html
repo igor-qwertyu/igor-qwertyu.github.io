@@ -1,0 +1,29 @@
+<!doctype html>
+<!-- Кушта Игорь 25ВП1 Вариант 16 -->
+<html lang="ru">
+    <head>
+        <title>Тест</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="#">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="js/test.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="content centered">
+            Вопрос №<span id="qnum"></span>
+            <div id="qa">
+                <div id="question">Вопрос</div>
+                <form id="answers">Ответ</form>
+            </div>
+            <div id="controls">
+                <span id="buttons"></span>
+            </div>
+            <button id="finish" onclick="main.finish()">
+                Завершить тест принудительно
+            </button>
+
+            <div id="remaining"></div>
+        </div>
+    </body>
+</html>

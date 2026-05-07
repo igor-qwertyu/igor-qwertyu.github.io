@@ -1,0 +1,39 @@
+<!doctype html>
+<!-- Кушта Игорь 25ВП1 Вариант 16 -->
+<html lang="ru">
+    <head>
+        <title>Тест</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="#">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="js/settings.js"></script>
+    </head>
+    <body>
+        <div class="content centered inline">
+            <div id="header">
+                Лабораторная работа №4 <br/>
+                Выполнил Кушта Игорь 25ВП1 <br/>
+                Вариант №16
+            </div>
+
+            <div id="task">
+                Предмет «Биология». Тестирование по теме «Эволюция живой
+                природы».
+            </div>
+
+            <form onsubmit="begin(event)">
+                <fieldset>
+                    <legend>Настройки</legend>
+                    <label for="shq">Перемешивать вопросы: </label>
+                    <input type="checkbox" id="shq" name="shq"><br>
+                    <label for="sha">Перемешивать ответы: </label>
+                    <input type="checkbox" id="sha" name="sha"><br>
+                    <label for="time">Время для прохождения теста: </label>
+                    <input id="time" type="time" name="time"
+                           required value="05:00" min="00:01"><br>
+                    <input type="submit" id="start" value="Начать тест">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
